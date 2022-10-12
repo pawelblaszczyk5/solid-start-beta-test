@@ -15,7 +15,7 @@ import {
 import "@unocss/reset/tailwind.css";
 import "virtual:uno.css";
 
-export default function Root() {
+const Root = () => {
   return (
     <Html lang="en">
       <Head>
@@ -35,4 +35,6 @@ export default function Root() {
       </Body>
     </Html>
   );
-}
+};
+
+export default Root;

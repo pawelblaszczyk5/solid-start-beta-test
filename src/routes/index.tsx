@@ -1,9 +1,18 @@
-import { A, Title } from "solid-start";
+import { Component, JSXElement } from "solid-js";
+import { A } from "solid-start";
 
-export default function Home() {
+const Link: Component<{ href: string; children: JSXElement }> = (props) => (
+  <A class="underline text-sky-700" href={props.href}>
+    {props.children}
+  </A>
+);
+
+const Home = () => {
   return (
-    <main>
-      <A href="/route-data">Route data</A>
+    <main class="flex flex-col gap-4">
+      <Link href="/route-data">Route data</Link>
     </main>
   );
-}
+};
+
+export default Home;
