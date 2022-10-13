@@ -11,6 +11,7 @@ const Home = () => {
   return (
     <main class="flex flex-col gap-4">
       <Link href="/route-data">Route data</Link>
+      <Link href="/route-action-form">Route action form</Link>
     </main>
   );
 };

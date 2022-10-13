@@ -1,4 +1,3 @@
-import { startTransition } from "solid-js";
 import { refetchRouteData, useRouteData } from "solid-start";
 import { createServerData$ } from "solid-start/server";
 
