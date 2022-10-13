@@ -23,7 +23,7 @@ const Screen: Component = () => {
       <form onSubmit={submit}>
         <input class="border-2 border-dark-400" name="test" />
       </form>
-      <h1>Hello route action form</h1>
+      <h1>Hello route action call</h1>
       <p>You submited: {data.result?.value}</p>
     </>
   );

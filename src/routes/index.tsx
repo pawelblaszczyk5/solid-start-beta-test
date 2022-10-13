@@ -13,6 +13,7 @@ const Home = () => {
       <Link href="/route-data">Route data</Link>
       <Link href="/route-action-form">Route action form</Link>
       <Link href="/route-action-call">Route action call</Link>
+      <Link href="/route-multiaction-form">Route multiaction form</Link>
     </main>
   );
 };
