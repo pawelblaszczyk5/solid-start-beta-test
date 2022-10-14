@@ -1,4 +1,4 @@
-import { Component, createSignal, JSX } from "solid-js";
+import { Component, JSX } from "solid-js";
 import { createServerAction$ } from "solid-start/server";
 
 const Screen: Component = () => {
