@@ -8,8 +8,8 @@ specifiers:
   '@whyframe/core': ^0.1.8
   '@whyframe/jsx': ^0.1.7
   solid-js: ^1.5.7
-  solid-start: ^0.1.6
-  solid-start-node: ^0.1.6
+  solid-start: ^0.1.7
+  solid-start-node: ^0.1.7
   typescript: ^4.8.4
   undici: ^5.11.0
   unocss: ^0.45.29
@@ -20,7 +20,7 @@ dependencies:
   '@solidjs/router': 0.5.0_solid-js@1.5.7
   '@unocss/reset': 0.45.29
   solid-js: 1.5.7
-  solid-start: 0.1.6_3c2wxe5giaavn7kxcvquai6bbu
+  solid-start: 0.1.7_3c2wxe5giaavn7kxcvquai6bbu
   undici: 5.11.0
   unocss: 0.45.29_vite@3.1.8
 
@@ -28,7 +28,7 @@ devDependencies:
   '@iconify/json': 2.1.122
   '@whyframe/core': 0.1.8_vite@3.1.8
   '@whyframe/jsx': 0.1.7_hdtuukyshs4n67vld5fapchteu
-  solid-start-node: 0.1.6_6jlf42o2hhr2j7gdrj6n3fwmcm
+  solid-start-node: 0.1.7_ktsqhbfqre3fe4i4goilg6s5qi
   typescript: 4.8.4
   vite: 3.1.8
 
@@ -3047,8 +3047,8 @@ packages:
       '@babel/types': 7.19.4
       solid-js: 1.5.7
 
-  /solid-start-node/0.1.6_6jlf42o2hhr2j7gdrj6n3fwmcm:
-    resolution: {integrity: sha512-SNLJpkBkvRcg2ZKwvvD8Xfe00m2trPbWXBxNiK8lVYyVXXkkOC+JBe7OiK2mdrRpU8qg42Nkl8ruxpuvyiYTjw==}
+  /solid-start-node/0.1.7_ktsqhbfqre3fe4i4goilg6s5qi:
+    resolution: {integrity: sha512-EuQoZLfDnFEFagpuFdE4It80FMwmni0/05MNHnui24z8xdu2itMX3FzD656nZlne5UrGZn6zfzF+x/gSToeNRQ==}
     peerDependencies:
       solid-start: '*'
       undici: ^5.8.0
@@ -3061,7 +3061,7 @@ packages:
       polka: 1.0.0-next.22
       rollup: 2.79.1
       sirv: 2.0.2
-      solid-start: 0.1.6_3c2wxe5giaavn7kxcvquai6bbu
+      solid-start: 0.1.7_3c2wxe5giaavn7kxcvquai6bbu
       terser: 5.15.1
       undici: 5.11.0
       vite: 3.1.8
@@ -3069,8 +3069,8 @@ packages:
       - supports-color
     dev: true
 
-  /solid-start/0.1.6_3c2wxe5giaavn7kxcvquai6bbu:
-    resolution: {integrity: sha512-mhpDvQzWnnmgCHK3WKovxIlQHRicK87lkzlJq+uGNyOgKm/vDOAyOlHrJKN1YTeHcsvY+8kZIOA0d81HyxUNmA==}
+  /solid-start/0.1.7_3c2wxe5giaavn7kxcvquai6bbu:
+    resolution: {integrity: sha512-3KmMPcQxnle64pkWow/vLIbPoIIagXDochoW4A/wG9Rc6NXyWFiA1soQq7MbBdYAK/og5tKgxqmDKzgaSgAMRA==}
     hasBin: true
     peerDependencies:
       '@solidjs/meta': ^0.28.0
